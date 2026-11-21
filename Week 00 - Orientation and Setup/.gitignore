@@ -1,11 +1,12 @@
 # Learning material: only each week's LAB folder is uploaded
-Week */*
-!Week */LAB/
+# Private / sensitive files
+DATA/users.txt
+secrets.toml
+.env
 
-# Files that should never be uploaded
+# Environment, cache, and OS junk
 .venv/
 __pycache__/
 .ipynb_checkpoints/
 __MACOSX/
 .DS_Store
-.env
