@@ -1,0 +1,1 @@
+print (' Hello to the CST1510_CW2 module !!!')
