@@ -1,0 +1,24 @@
+WEEK 09 - COMPLETION AND TEST REPORT
+
+Completed:
+- Filled every '# your code here' cell in all four topic walkthrough notebooks.
+- Completed the Topic 3 challenge cell.
+- Added a ready-to-use CST1510_CW2 project folder containing auth.py, fetch_data.py, DATA/raw.csv, and .gitignore.
+- Added requirements.txt with the packages used by the project.
+- Updated the lab notebook's project-folder discovery to find the included CST1510_CW2 folder when opened from the extracted Week 09 directory.
+
+Checks performed in this environment:
+- PASS: all 12 Python files compile successfully (syntax check).
+- PASS: all code cells in all five notebooks compile successfully.
+- PASS: no '# your code here' placeholders remain in the walkthrough notebooks.
+- PASS: executed all code cells in Topic 1 walkthrough; hashing, avalanche effect, verification, rainbow-table, and challenge examples ran.
+- PASS: executed all code cells in Topic 4 walkthrough; environment-variable and .gitignore examples ran.
+
+Not fully runtime-tested here:
+- bcrypt is NOT installed in this execution environment, and network access prevented installing it.
+- Therefore bcrypt examples, Topic 2/3 walkthrough runtime cells, and the LAB authentication tests could not be executed here.
+- On your Windows PC, open a terminal in the extracted 'Week 09 - Hashing and Auth' folder and run:
+      python -m pip install -r requirements.txt
+  Then open the LAB/W09_Lab.ipynb notebook in VS Code and run cells from top to bottom.
+- The project authentication code uses bcrypt as required by the lab; do not replace it with plain SHA-256 for passwords.
+- The Week 8 fetch_data.py script calls an external API, so it needs internet access if you choose to run it.
